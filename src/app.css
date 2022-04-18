@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+button:hover{
+    width: 125px;
+    height: 50px;
+    background: rgb(0, 235, 235);
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+img{
+    animation: app-logo-spin 10s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes app-logo-spin {
+    from{
+        transform: rotateZ(0);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+@media screen and (max-width: 1024px) {
+    h1, p{
+        font-size: 28.5px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-left: 12.5px;
+    }
+    p{
+        font-size: 17.5px;
+        font-weight: 400; 
+    }
+    a{
+        font-size: 21.5px;
+        font-weight: 500;
+        color: #00d8ff;
+        margin-left: 86.5px;
+    }
+    button{
+        width: 125px;
+        height: 50px;
+        background: cyan;
+        color: white;
+        border: none;
+        text-align: center;
+        font-size: 17.5px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left: 89.5px;
+    }
+    img{
+        width: 185px;
+        height: 185px;
+        margin-left: 63.5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    h1, p{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-left: 10px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400; 
+    }
+    a{
+        font-size: 20px;
+        font-weight: 500;
+        color: #00d8ff;
+        margin-left: 83.5px;
+    }
+    button{
+        width: 125px;
+        height: 50px;
+        background: cyan;
+        color: white;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left: 86.5px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        margin-left: 68.5px;
+    }
+}
