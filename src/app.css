@@ -10,18 +10,43 @@ body{
     align-items: center;
     min-height: 95vh;
 }
-button:hover{
+button{
     width: 125px;
     height: 50px;
-    background: rgb(0, 235, 235);
+    background: cyan;
+    color: white;
     border: none;
+    text-align: center;
+    font-size: 18px;
     font-weight: 500;
+    margin-left: 82.5px;
+}
+button:hover{
+    background: #00ebeb;
     cursor: pointer;
 }
 img{
+    width: 250px;
+    height: 250px;
+    margin-left: 28.5px;
     animation: app-logo-spin 10s linear infinite;
     transform-origin: center;
     transform-box: fill-box;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+a{
+    font-size: 23.5px;
+    font-weight: 500;
+    color: #00d8ff;
+    margin-left: 75px;
 }
 @keyframes app-logo-spin {
     from{
