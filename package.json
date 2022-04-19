@@ -1,7 +1,7 @@
 {
   "name": "react-app-without-cra",
   "version": "1.0.0",
-  "homepage": "https://amiralariska.github.io/my-react-app-without-cra-clone",
+  "homepage": "https://amiralariska.github.io/my-react-app-without-cra",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
