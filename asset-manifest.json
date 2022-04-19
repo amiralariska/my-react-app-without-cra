@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my-react-app-without-cra-clone/static/css/main.09153854.chunk.css",
-    "main.js": "/my-react-app-without-cra-clone/static/js/main.06583e82.chunk.js",
-    "main.js.map": "/my-react-app-without-cra-clone/static/js/main.06583e82.chunk.js.map",
+    "main.css": "/my-react-app-without-cra-clone/static/css/main.15d3bf68.chunk.css",
+    "main.js": "/my-react-app-without-cra-clone/static/js/main.b51060e8.chunk.js",
+    "main.js.map": "/my-react-app-without-cra-clone/static/js/main.b51060e8.chunk.js.map",
     "runtime-main.js": "/my-react-app-without-cra-clone/static/js/runtime-main.55bc8905.js",
     "runtime-main.js.map": "/my-react-app-without-cra-clone/static/js/runtime-main.55bc8905.js.map",
     "static/js/2.523bc5c1.chunk.js": "/my-react-app-without-cra-clone/static/js/2.523bc5c1.chunk.js",
     "static/js/2.523bc5c1.chunk.js.map": "/my-react-app-without-cra-clone/static/js/2.523bc5c1.chunk.js.map",
     "index.html": "/my-react-app-without-cra-clone/index.html",
-    "static/css/main.09153854.chunk.css.map": "/my-react-app-without-cra-clone/static/css/main.09153854.chunk.css.map",
+    "static/css/main.15d3bf68.chunk.css.map": "/my-react-app-without-cra-clone/static/css/main.15d3bf68.chunk.css.map",
     "static/js/2.523bc5c1.chunk.js.LICENSE.txt": "/my-react-app-without-cra-clone/static/js/2.523bc5c1.chunk.js.LICENSE.txt",
     "static/media/react-icon.300fdb49.png": "/my-react-app-without-cra-clone/static/media/react-icon.300fdb49.png"
   },
   "entrypoints": [
     "static/js/runtime-main.55bc8905.js",
     "static/js/2.523bc5c1.chunk.js",
-    "static/css/main.09153854.chunk.css",
-    "static/js/main.06583e82.chunk.js"
+    "static/css/main.15d3bf68.chunk.css",
+    "static/js/main.b51060e8.chunk.js"
   ]
 }
