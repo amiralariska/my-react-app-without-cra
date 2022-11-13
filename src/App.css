@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+}
+button.react-btn{
+    width: 125px;
+    height: 50px;
+    background: cyan;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 82.5px;
+}
+button.react-btn:hover{
+    background: #00ebeb;
+    cursor: pointer;
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin-left: 28.5px;
+    animation: app-logo-spin 10s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes app-logo-spin {
+    from{
+        transform: rotateZ(0);
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+a.react-link{
+    font-size: 23.5px;
+    font-weight: 500;
+    color: #00d8ff;
+    margin-left: 75px;
+}
+@media screen and (max-width: 1024px) {
+    h1{
+        font-size: 28.5px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-left: 12.5px;
+    }
+    p{
+        font-size: 17.5px;
+        font-weight: 400; 
+    }
+    a.react-link{
+        font-size: 21.5px;
+        font-weight: 500;
+        color: #00d8ff;
+        margin-left: 85px;
+    }
+    button.react-btn{
+        width: 125px;
+        height: 50px;
+        background: cyan;
+        color: white;
+        border: none;
+        text-align: center;
+        font-size: 17.5px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left: 86.5px;
+    }
+    img{
+        width: 215px;
+        height: 215px;
+        margin-left: 45px;
+    }
+}
+@media screen and (max-width: 500px) {
+    h1{
+        font-size: 25px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        margin-left: 10px;
+    }
+    p{
+        font-size: 16px;
+        font-weight: 400; 
+    }
+    a.react-link{
+        font-size: 20px;
+        font-weight: 500;
+        color: #00d8ff;
+        margin-left: 78.5px;
+    }
+    button.react-btn{
+        width: 125px;
+        height: 50px;
+        background: cyan;
+        color: white;
+        border: none;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-left: 76.5px;
+    }
+    img{
+        width: 185px;
+        height: 185px;
+        margin-left: 43.5px;
+    }
+    .main{
+        margin-top: 10.938rem;
+    }
+}
