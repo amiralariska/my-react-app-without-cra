@@ -116,7 +116,7 @@ g#info{
         margin-right: 10px;
     }
 }
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 785px) {
     p.banner-text{
         font-size: 16.5px;
         font-weight: 500;
@@ -124,39 +124,6 @@ g#info{
     }
     a.github-repo{
         font-size: 15px;
-        font-weight: 500;
-        color: #00c5df;
-        text-decoration: none;
-        margin-left: 10px;
-    }
-    .banner-close{
-        width: 42.5px;
-        height: 42.5px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-left: 5px;
-    }
-    svg.plus-icon{
-        width: 38.5px;
-        height: 38.5px;
-    }
-    svg.info-icon{
-        width: 45px;
-        height: 45px;
-        margin-right: 10px;
-    }
-}
-@media screen and (max-width: 850px) {
-    p.banner-text{
-        font-size: 16px;
-        font-weight: 500;
-        color: #00e5ff;
-    }
-    a.github-repo{
-        font-size: 14px;
         font-weight: 500;
         color: #00c5df;
         text-decoration: none;
@@ -250,7 +217,7 @@ g#info{
         margin-right: 15px;
     }
 }
-@media screen and (max-width: 725px) {
+@media screen and (max-width: 625px) {
     p.banner-text{
         font-size: 18px;
         font-weight: 500;
@@ -283,7 +250,7 @@ g#info{
         margin-right: 10px;
     }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 585px) {
     p.banner-text{
         font-size: 16.5px;
         font-weight: 500;
@@ -291,39 +258,6 @@ g#info{
     }
     a.github-repo{
         font-size: 15px;
-        font-weight: 500;
-        color: #00c5df;
-        text-decoration: none;
-        margin-left: 10px;
-    }
-    .banner-close{
-        width: 42.5px;
-        height: 42.5px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-left: 5px;
-    }
-    svg.plus-icon{
-        width: 38.5px;
-        height: 38.5px;
-    }
-    svg.info-icon{
-        width: 45px;
-        height: 45px;
-        margin-right: 10px;
-    }
-}
-@media screen and (max-width: 585px) {
-    p.banner-text{
-        font-size: 16px;
-        font-weight: 500;
-        color: #00e5ff;
-    }
-    a.github-repo{
-        font-size: 14px;
         font-weight: 500;
         color: #00c5df;
         text-decoration: none;
@@ -349,10 +283,7 @@ g#info{
         margin-right: 10px;
     }
 }
-@media screen and (max-width: 545px) {
-    .main{
-        margin-top: 10.781rem;
-    }
+@media screen and (max-width: 500px) {
     .banner{
         width: 100%;
         height: 175px;
@@ -413,7 +344,7 @@ g#info{
         margin-left: 15px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 450px) {
     .banner{
         width: 100%;
         height: 165px;
@@ -457,7 +388,7 @@ g#info{
         height: 45px;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
     p.banner-text{
         font-size: 18px;
         font-weight: 500;
@@ -490,6 +421,17 @@ g#info{
     }
 }
 @media screen and (max-width: 385px) {
+    .banner{
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        background: #00b5df;
+    }
     p.banner-text{
         font-size: 16px;
         font-weight: 500;
@@ -522,6 +464,50 @@ g#info{
         margin-right: 10px;
     }
 }
+@media screen and (max-width: 350px) {
+    .banner{
+        width: 100%;
+        height: 135px;
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        background: #00b5df;
+    }
+    p.banner-text{
+        font-size: 15px;
+        font-weight: 500;
+        color: #00e5ff;
+    }
+    a.github-repo{
+        font-size: 13.5px;
+        font-weight: 500;
+        color: #00c5df;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+    .banner-close{
+        width: 35px;
+        height: 35px;
+        background: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s;
+        margin-right: -5px;
+    }
+    svg.plus-icon{
+        width: 32.5px;
+        height: 32.5px;
+    }
+    svg.info-icon{
+        width: 38.5px;
+        height: 38.5px;
+        margin-right: 10px;
+    }
+}
 @media screen and (max-width: 325px) {
     p.banner-text{
         font-size: 14.5px;
@@ -536,8 +522,8 @@ g#info{
         margin-left: 10px;
     }
     .banner-close{
-        width: 35px;
-        height: 35px;
+        width: 32.5px;
+        height: 32.5px;
         background: none;
         display: flex;
         justify-content: center;

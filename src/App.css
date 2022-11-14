@@ -92,6 +92,16 @@ a.react-link{
         margin-left: 45px;
     }
 }
+@media screen and (max-width: 768px) {
+    .main{
+        margin-top: 4.281rem;
+    }
+}
+@media screen and (max-width: 545px) {
+    .main{
+        margin-top: 4.531rem;
+    }
+}
 @media screen and (max-width: 500px) {
     h1{
         font-size: 25px;
@@ -128,6 +138,11 @@ a.react-link{
         margin-left: 43.5px;
     }
     .main{
-        margin-top: 10.938rem;
+        margin-top: 9.375rem;
+    }
+}
+@media screen and (max-width: 350px) {
+    .main{
+        margin-top: 7.813rem;
     }
 }
