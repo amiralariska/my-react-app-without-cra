@@ -24,6 +24,7 @@ p.banner-text{
     font-size: 20px;
     font-weight: 500;
     color: #00e5ff;
+    text-align: center;
 }
 a.github-repo{
     font-size: 18px;
@@ -305,7 +306,6 @@ g#info{
         font-size: 21.5px;
         font-weight: 500;
         color: #00e5ff;
-        text-align: center;
         margin-top: 5px;
     }
     a.github-repo{
