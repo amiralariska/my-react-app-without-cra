@@ -9,11 +9,12 @@ export const InfoIcon = () => (
         </g>
     </svg>
 )
-export const PlusIcon = () => (
-    <svg className="plus-icon" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg">
-        <g id="plus">
-            <path d="M22.5 9.375V35.625" stroke="#00e5ff" strokeWidth="4" />
-            <path d="M9.375 22.5H35.625" stroke="#00e5ff" strokeWidth="4" />
+export const DownArrowIcon = () => (
+    <svg className="downarrow-icon" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g id="chevron-down">
+            <path id="chevron-down-left" d="M12.5 18.75L25 31.25"/>
+            <path id="chevron-down-right" d="M25 31.25L37.5 18.75"/>
+            <path id="chevron-down-small" d="M18.75 25L25 31.25L31.25 25"/>
         </g>
     </svg>
 )

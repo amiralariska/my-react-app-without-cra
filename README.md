@@ -4,4 +4,4 @@
     <p align="center">My First React App(Without create-react-app)</p>
 </p>
 
-> **Info:** My React App Without CRA will be updated at December 1, 2022
+> **Info:** My React App Without CRA will be updated at December 10, 2022

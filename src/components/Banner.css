@@ -1,24 +1,15 @@
 .banner{
     width: 100%;
-    height: 65px;
+    height: 150px;
 	position: absolute;
     display: flex;
+    flex-direction: column;
 	top: 0;
 	left: 0;
     justify-content: center;
     align-items: center;
     background: #00b5df;
-    animation: fade-down 0.5s linear;
-}
-@keyframes fade-down {
-    0%{
-        opacity: 0;
-        margin-top: -65px;
-    }
-    100%{
-        opacity: 1;
-        margin-top: 0;
-    }
+    transition: 0.5s;
 }
 p.banner-text{
     font-size: 20px;
@@ -37,6 +28,12 @@ a.github-repo{
 a.github-repo:hover{
     color: #00d5ef;
 }
+.banner-main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -32.5px;
+}
 .banner-content{
     display: flex;
     justify-content: center;
@@ -47,35 +44,6 @@ a.github-repo:hover{
     justify-content: center;
     align-items: center;
 }
-.banner-close{
-    width: 50px;
-    height: 50px;
-    background: none;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    transition: 0.5s;
-    margin-left: 5px;
-}
-.banner-close:hover{
-    background: #00bfe5;
-}
-.banner.remove{
-    opacity: 0;
-    margin-top: -65px;
-    transition: 0.5s;
-}
-svg.plus-icon{
-    width: 45px;
-    height: 45px;
-}
-g#plus{
-    transform: rotate(45deg);
-    transform-origin: center;
-    transform-box: fill-box;
-}
 svg.info-icon{
     width: 52.5px;
     height: 52.5px;
@@ -85,6 +53,21 @@ g#info{
     fill: none;
 }
 @media screen and (max-width: 1024px) {
+    .banner{
+        width: 100%;
+        height: 135px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        background: #00b5df;
+    }
+    .banner-main-content{
+        margin-bottom: -35px;
+    }
     p.banner-text{
         font-size: 18px;
         font-weight: 500;
@@ -96,20 +79,6 @@ g#info{
         color: #00c5df;
         text-decoration: none;
         margin-left: 10px;
-    }
-    .banner-close{
-        width: 45px;
-        height: 45px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-left: 5px;
-    }
-    svg.plus-icon{
-        width: 42.5px;
-        height: 42.5px;
     }
     svg.info-icon{
         width: 50px;
@@ -130,20 +99,6 @@ g#info{
         text-decoration: none;
         margin-left: 10px;
     }
-    .banner-close{
-        width: 38.5px;
-        height: 38.5px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-left: 5px;
-    }
-    svg.plus-icon{
-        width: 35px;
-        height: 35px;
-    }
     svg.info-icon{
         width: 42.5px;
         height: 42.5px;
@@ -153,14 +108,18 @@ g#info{
 @media screen and (max-width: 768px) {
     .banner{
         width: 100%;
-        height: 105px;
+        height: 165px;
         position: absolute;
         display: flex;
+        flex-direction: column;
         top: 0;
         left: 0;
         justify-content: center;
         align-items: center;
         background: #00b5df;
+    }
+    .banner-main-content{
+        margin-bottom: -25px;
     }
     .banner-text-content{
         display: flex;
@@ -190,28 +149,6 @@ g#info{
         justify-content: center;
         align-items: center;
     }
-    .banner-close{
-        width: 50px;
-        height: 50px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-left: 10px;
-    }
-    .banner-close:hover{
-        background: #00bfe5;
-    }
-    .banner.remove{
-        opacity: 0;
-        margin-top: -65px;
-        transition: 0.5s;
-    }
-    svg.plus-icon{
-        width: 45px;
-        height: 45px;
-    }
     svg.info-icon{
         width: 52.5px;
         height: 52.5px;
@@ -219,6 +156,18 @@ g#info{
     }
 }
 @media screen and (max-width: 625px) {
+    .banner{
+        width: 100%;
+        height: 150px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        background: #00b5df;
+    }
     p.banner-text{
         font-size: 18px;
         font-weight: 500;
@@ -230,20 +179,6 @@ g#info{
         color: #00c5df;
         text-decoration: none;
         margin-left: 10px;
-    }
-    .banner-close{
-        width: 45px;
-        height: 45px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-left: 5px;
-    }
-    svg.plus-icon{
-        width: 42.5px;
-        height: 42.5px;
     }
     svg.info-icon{
         width: 50px;
@@ -264,20 +199,6 @@ g#info{
         text-decoration: none;
         margin-left: 10px;
     }
-    .banner-close{
-        width: 38.5px;
-        height: 38.5px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-left: 5px;
-    }
-    svg.plus-icon{
-        width: 35px;
-        height: 35px;
-    }
     svg.info-icon{
         width: 42.5px;
         height: 42.5px;
@@ -287,9 +208,10 @@ g#info{
 @media screen and (max-width: 500px) {
     .banner{
         width: 100%;
-        height: 175px;
+        height: 232.5px;
         position: absolute;
         display: flex;
+        flex-direction: column;
         top: 0;
         left: 0;
         justify-content: center;
@@ -324,20 +246,6 @@ g#info{
         justify-content: center;
         align-items: center;
     }
-    .banner-close{
-        width: 52.5px;
-        height: 52.5px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-right: -15px;
-    }
-    svg.plus-icon{
-        width: 48.5px;
-        height: 48.5px;
-    }
     svg.info-icon{
         width: 56.5px;
         height: 56.5px;
@@ -347,7 +255,7 @@ g#info{
 @media screen and (max-width: 450px) {
     .banner{
         width: 100%;
-        height: 165px;
+        height: 218.5px;
         position: absolute;
         display: flex;
         top: 0;
@@ -368,24 +276,10 @@ g#info{
         text-decoration: none;
         margin-left: 10px;
     }
-    .banner-close{
-        width: 50px;
-        height: 50px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-right: -15px;
-    }
     svg.info-icon{
         width: 52.5px;
         height: 52.5px;
         margin-left: 15px;
-    }
-    svg.plus-icon{
-        width: 45px;
-        height: 45px;
     }
 }
 @media screen and (max-width: 425px) {
@@ -401,37 +295,12 @@ g#info{
         text-decoration: none;
         margin-left: 10px;
     }
-    .banner-close{
-        width: 45px;
-        height: 45px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-right: -15px;
-    }
-    svg.plus-icon{
-        width: 42.5px;
-        height: 42.5px;
-    }
     svg.info-icon{
         width: 50px;
         height: 50px;
     }
 }
 @media screen and (max-width: 385px) {
-    .banner{
-        width: 100%;
-        height: 150px;
-        position: absolute;
-        display: flex;
-        top: 0;
-        left: 0;
-        justify-content: center;
-        align-items: center;
-        background: #00b5df;
-    }
     p.banner-text{
         font-size: 16px;
         font-weight: 500;
@@ -444,20 +313,6 @@ g#info{
         text-decoration: none;
         margin-left: 10px;
     }
-    .banner-close{
-        width: 38.5px;
-        height: 38.5px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-right: -5px;
-    }
-    svg.plus-icon{
-        width: 35px;
-        height: 35px;
-    }
     svg.info-icon{
         width: 42.5px;
         height: 42.5px;
@@ -467,7 +322,7 @@ g#info{
 @media screen and (max-width: 350px) {
     .banner{
         width: 100%;
-        height: 135px;
+        height: 192.5px;
         position: absolute;
         display: flex;
         top: 0;
@@ -488,20 +343,6 @@ g#info{
         text-decoration: none;
         margin-left: 10px;
     }
-    .banner-close{
-        width: 35px;
-        height: 35px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-right: -5px;
-    }
-    svg.plus-icon{
-        width: 32.5px;
-        height: 32.5px;
-    }
     svg.info-icon{
         width: 38.5px;
         height: 38.5px;
@@ -509,6 +350,17 @@ g#info{
     }
 }
 @media screen and (max-width: 325px) {
+    .banner{
+        width: 100%;
+        height: 182.5px;
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0;
+        justify-content: center;
+        align-items: center;
+        background: #00b5df;
+    }
     p.banner-text{
         font-size: 14.5px;
         font-weight: 500;
@@ -520,20 +372,6 @@ g#info{
         color: #00c5df;
         text-decoration: none;
         margin-left: 10px;
-    }
-    .banner-close{
-        width: 32.5px;
-        height: 32.5px;
-        background: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        transition: 0.5s;
-        margin-right: -5px;
-    }
-    svg.plus-icon{
-        width: 28.5px;
-        height: 28.5px;
     }
     svg.info-icon{
         width: 35px;

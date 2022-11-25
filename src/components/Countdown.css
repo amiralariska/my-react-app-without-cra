@@ -1,0 +1,98 @@
+.timer-container{
+    margin-bottom: -32.5px;
+}
+.countdown-timer section p.numb,
+.countdown-timer span.clone{
+    font-family: 'League Spartan', sans-serif;
+}
+.now-title{
+	font-size: 35px;
+	font-weight: 700;
+    color: #00e5ff;
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 1024px) {
+    .timer-container{
+        margin-bottom: -35px;
+    }
+    .now-title{
+        font-size: 32.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media screen and (max-width: 785px) {
+    .now-title{
+        font-size: 28.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .timer-container{
+        margin-bottom: -42.5px;
+    }
+    .now-title{
+        font-size: 35px;
+        font-weight: 700;
+        color: #00e5ff;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 625px) {
+    .timer-container{
+        margin-bottom: -35px;
+    }
+    .now-title{
+        font-size: 32.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media screen and (max-width: 585px) {
+    .now-title{
+        font-size: 28.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .timer-container{
+        margin-bottom: -38.5px;
+    }
+    .now-title{
+        font-size: 35px;
+        font-weight: 700;
+        color: #00e5ff;
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .timer-container{
+        margin-bottom: -32.5px;
+    }
+    .now-title{
+        font-size: 32.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .now-title{
+        font-size: 28.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media screen and (max-width: 385px) {
+    .now-title{
+        font-size: 25px;
+        margin-bottom: 12.5px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .now-title{
+        font-size: 23.5px;
+        margin-bottom: 12.5px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .now-title{
+        font-size: 21.5px;
+        margin-bottom: 12.5px;
+    }
+}
