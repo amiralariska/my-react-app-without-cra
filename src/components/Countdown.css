@@ -1,5 +1,5 @@
 .timer-container{
-    margin-bottom: -32.5px;
+    margin-bottom: -28.5px;
 }
 .countdown-timer section p.numb,
 .countdown-timer span.clone{
@@ -13,7 +13,7 @@
 }
 @media screen and (max-width: 1024px) {
     .timer-container{
-        margin-bottom: -35px;
+        margin-bottom: -25px;
     }
     .now-title{
         font-size: 32.5px;
@@ -21,6 +21,9 @@
     }
 }
 @media screen and (max-width: 785px) {
+    .timer-container{
+        margin-bottom: -21.5px;
+    }
     .now-title{
         font-size: 28.5px;
         margin-bottom: 12.5px;
@@ -47,6 +50,9 @@
     }
 }
 @media screen and (max-width: 585px) {
+    .timer-container{
+        margin-bottom: -28.5px;
+    }
     .now-title{
         font-size: 28.5px;
         margin-bottom: 12.5px;
@@ -54,7 +60,7 @@
 }
 @media screen and (max-width: 500px) {
     .timer-container{
-        margin-bottom: -38.5px;
+        margin-bottom: -35px;
     }
     .now-title{
         font-size: 35px;
@@ -65,7 +71,7 @@
 }
 @media screen and (max-width: 450px) {
     .timer-container{
-        margin-bottom: -32.5px;
+        margin-bottom: -28.5px;
     }
     .now-title{
         font-size: 32.5px;
@@ -73,24 +79,36 @@
     }
 }
 @media screen and (max-width: 425px) {
+    .timer-container{
+        margin-bottom: -25px;
+    }
     .now-title{
         font-size: 28.5px;
         margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 385px) {
+    .timer-container{
+        margin-bottom: -21.5px;
+    }
     .now-title{
         font-size: 25px;
         margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 350px) {
+    .timer-container{
+        margin-bottom: -18.5px;
+    }
     .now-title{
         font-size: 23.5px;
         margin-bottom: 12.5px;
     }
 }
 @media screen and (max-width: 325px) {
+    .timer-container{
+        margin-bottom: -15px;
+    }
     .now-title{
         font-size: 21.5px;
         margin-bottom: 12.5px;

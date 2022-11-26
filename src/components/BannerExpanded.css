@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 .banner.collapse .banner-main-content{
-    margin-top: 75px;
+    margin-top: 82.5px;
     margin-bottom: 0;
 }
 .banner.collapse path#chevron-down-left{
@@ -116,7 +116,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 1024px) {
     .banner.collapse .banner-main-content{
-        margin-top: 62.5px;
+        margin-top: 75px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -137,7 +137,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 785px) {
     .banner.collapse .banner-main-content{
-        margin-top: 53.5px;
+        margin-top: 68.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -184,7 +184,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 625px) {
     .banner.collapse .banner-main-content{
-        margin-top: 58.5px;
+        margin-top: 62.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -206,7 +206,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 585px) {
     .banner.collapse .banner-main-content{
-        margin-top: 50px;
+        margin-top: 58.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -252,6 +252,10 @@ button.expand-btn:hover{
     }
 }
 @media screen and (max-width: 450px) {
+    .banner.collapse .banner-main-content{
+        margin-top: 58.5px;
+        margin-bottom: 0;
+    }
     button.expand-btn{
         width: 50px;
         height: 50px;
@@ -271,7 +275,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 425px) {
     .banner.collapse .banner-main-content{
-        margin-top: 58.5px;
+        margin-top: 53.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -293,11 +297,11 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 385px) {
     .banner.collapse{
-        height: 165px;
+        height: 150px;
         overflow: hidden;
     }
     .banner.collapse .banner-main-content{
-        margin-top: 42.5px;
+        margin-top: 50px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -322,7 +326,7 @@ button.expand-btn:hover{
         overflow: hidden;
     }
     .banner.collapse .banner-main-content{
-        margin-top: 38.5px;
+        margin-top: 45px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -343,7 +347,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 325px) {
     .banner.collapse .banner-main-content{
-        margin-top: 38.5px;
+        margin-top: 42.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
