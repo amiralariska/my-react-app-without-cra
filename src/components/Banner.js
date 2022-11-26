@@ -18,7 +18,7 @@ export default function Banner() {
                         <InfoIcon />
                         <div className='banner-text-content'>
                             <p className='banner-text'>My React App Without CRA will<br /> be updated at {enddate}</p>
-                            <a className='github-repo' href='https://github.com/amiralariska/my-react-app-clone' target='_blank' rel='noopener noreferrer'>Please check this github repo</a>
+                            <a className='github-repo' href='https://github.com/amiralariska/my-react-app-without-cra-web' target='_blank' rel='noopener noreferrer'>Please check this github repo</a>
                         </div>
                     </div>
                     <button className='expand-btn' onClick={() => {
