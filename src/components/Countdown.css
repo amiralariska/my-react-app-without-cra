@@ -106,12 +106,10 @@ a.github-pages:hover{
     }
     a.github-pages{
         font-size: 23.5px;
-        /* third: link */
         margin-top: 32.5px;
     }
 }
 @media screen and (max-width: 325px) {
-    /* last: link */
     .timer-container{
         margin-bottom: -15px;
     }

@@ -12,7 +12,7 @@ export default function Countdown() {
 	let now;
 	let distance;
 	const startTimer = () => {
-		const countDownDate = new Date("Dec 11, 2022 17:45:00").getTime();
+		const countDownDate = new Date("Dec 17, 2022 17:45:00").getTime();
 
 		let interval = setInterval(() => {
 				const now = new Date().getTime();

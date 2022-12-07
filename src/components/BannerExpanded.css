@@ -3,7 +3,7 @@
     overflow: hidden;
 }
 .banner.collapse .banner-main-content{
-    margin-top: 56.5px;
+    margin-top: 85px;
     margin-bottom: 0;
 }
 .banner.collapse path#chevron-down-left{
@@ -116,7 +116,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 1024px) {
     .banner.collapse .banner-main-content{
-        margin-top: 65px;
+        margin-top: 78.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -137,7 +137,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 785px) {
     .banner.collapse .banner-main-content{
-        margin-top: 56.5px;
+        margin-top: 72.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -162,7 +162,7 @@ button.expand-btn:hover{
         overflow: hidden;
     }
     .banner.collapse .banner-main-content{
-        margin-top: 65px;
+        margin-top: 68.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -184,7 +184,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 625px) {
     .banner.collapse .banner-main-content{
-        margin-top: 58.5px;
+        margin-top: 65px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -206,7 +206,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 585px) {
     .banner.collapse .banner-main-content{
-        margin-top: 56.5px;
+        margin-top: 58.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -231,7 +231,7 @@ button.expand-btn:hover{
         overflow: hidden;
     }
     .banner.collapse .banner-main-content{
-        margin-top: 68.5px;
+        margin-top: 62.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -253,7 +253,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 450px) {
     .banner.collapse .banner-main-content{
-        margin-top: 62.5px;
+        margin-top: 65px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -275,7 +275,7 @@ button.expand-btn:hover{
 }
 @media screen and (max-width: 425px) {
     .banner.collapse .banner-main-content{
-        margin-top: 56.5px;
+        margin-top: 52.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -301,7 +301,7 @@ button.expand-btn:hover{
         overflow: hidden;
     }
     .banner.collapse .banner-main-content{
-        margin-top: 68.5px;
+        margin-top: 48.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -325,9 +325,8 @@ button.expand-btn:hover{
         height: 135px;
         overflow: hidden;
     }
-    /* second: expand collapse button */
     .banner.collapse .banner-main-content{
-        margin-top: 62.5px;
+        margin-top: 52.5px;
         margin-bottom: 0;
     }
     button.expand-btn{
@@ -347,9 +346,8 @@ button.expand-btn:hover{
     }
 }
 @media screen and (max-width: 325px) {
-    /* fifth: expand collapse button */
     .banner.collapse .banner-main-content{
-        margin-top: 53.5px;
+        margin-top: 42.5px;
         margin-bottom: 0;
     }
     button.expand-btn{

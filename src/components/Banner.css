@@ -49,6 +49,7 @@ a.github-repo:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 5px;
 }
 svg.info-icon{
     width: 52.5px;
@@ -128,7 +129,7 @@ g#info{
         background: #00b5df;
     }
     .banner-main-group-content{
-        margin-top: 15px;
+        margin-bottom: 5px;
     }
     .banner-main-content{
         margin-bottom: -15px;
@@ -169,7 +170,7 @@ g#info{
 }
 @media screen and (max-width: 625px) {
     .banner-main-group-content{
-        margin-top: 12.5px;
+        margin-bottom: 8.5px;
     }
     .banner{
         width: 100%;
@@ -203,7 +204,7 @@ g#info{
 }
 @media screen and (max-width: 585px) {
     .banner-main-group-content{
-        margin-top: 8.5px;
+        margin-bottom: 2.5px;
     }
     .banner-main-content{
         margin-bottom: -12.5px;
@@ -240,7 +241,7 @@ g#info{
         background: #00b5df;
     }
     .banner-main-group-content{
-        margin-top: 15px;
+        margin-bottom: -2.5px;
     }
     .banner-main-content{
         margin-bottom: -18.5px;
@@ -281,7 +282,7 @@ g#info{
 }
 @media screen and (max-width: 450px) {
     .banner-main-group-content{
-        margin-top: 12.5px;
+        margin-bottom: 2.5px;
     }
     .banner{
         width: 100%;
@@ -317,7 +318,7 @@ g#info{
 }
 @media screen and (max-width: 425px) {
     .banner-main-group-content{
-        margin-top: 8.5px;
+        margin-bottom: -2.5px;
     }
     .banner-main-content{
         margin-bottom: -12.5px;
@@ -341,7 +342,7 @@ g#info{
 }
 @media screen and (max-width: 385px) {
     .banner-main-group-content{
-        margin-top: 15px;
+        margin-bottom: 2.5px;
     }
     .banner{
         width: 100%;
@@ -376,9 +377,8 @@ g#info{
     }
 }
 @media screen and (max-width: 350px) {
-    /* first: main group */
     .banner-main-group-content{
-        margin-top: 12.5px;
+        margin-bottom: 5px;
     }
     .banner{
         width: 100%;
@@ -413,9 +413,8 @@ g#info{
     }
 }
 @media screen and (max-width: 325px) {
-    /* fourth: second main group */
     .banner-main-group-content{
-        margin-top: 8.5px;
+        margin-bottom: -2.5px;
     }
     .banner{
         width: 100%;
