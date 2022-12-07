@@ -5,7 +5,7 @@ import './Banner.css'
 import './BannerExpanded.css'
 
 export default function Banner() {
-    const date = new Date("2022-12-11");
+    const date = new Date("2022-12-17");
     const enddate = date.toLocaleDateString('en-US', {
         dateStyle: 'long'
     });
